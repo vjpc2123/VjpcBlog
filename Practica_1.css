@@ -1,3 +1,4 @@
+
 body
 {
     font-family: 'Allerta', sans-serif;
@@ -33,4 +34,13 @@ body
 .menu
 {
   font-size: 24px;
+  display: inline-block;
+}
+.menu li
+{
+  display: inline-block;
+}
+.logotipo
+{
+  display: inline-block;
 }
