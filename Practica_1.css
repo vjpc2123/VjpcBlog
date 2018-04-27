@@ -1,4 +1,15 @@
-
+header
+{
+  position: relative;
+}
+button
+{
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
 body
 {
     margin:0;
@@ -34,6 +45,7 @@ body
 .portada
 {
   background-image: url("Img/background.png");
+
   color: white;
   padding: 20px;
 
@@ -42,6 +54,9 @@ body
 {
   font-size: 24px;
   display: inline-block;
+  position: absolute;
+  right: 0;
+  top:25px;
 }
 .menu li
 {
@@ -75,24 +90,31 @@ body
 .guitarra-1 img
 {
   float: right;
+  position: relative;
+  top: -167px;
 }
 
 .guitarra-2 img
 {
   float:left;
+  position: relative;
+  top: -100px;
 }
 .guitarra-1
 {
-  padding: 10px;
+  padding: 52px;
   margin: 10px;
-  overflow:hidden;
+  /*overflow:hidden;*/
   border: 1px solid #254d74;
+  border-radius: 10px;
+
 }
 .guitarra-2
 { padding: 10px;
   margin: 10px;
-  overflow: hidden;
+  /*overflow: hidden;*/
   border: 1px solid #254d74;
+  border-radius: 10px;
 }
 .contenedoguitarraB
 {margin-left: 390px;}
