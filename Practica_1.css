@@ -98,7 +98,7 @@ body
 {
   float:left;
   position: relative;
-  top: -100px;
+  top: 57px;
 }
 .guitarra-1
 {
@@ -118,3 +118,8 @@ body
 }
 .contenedoguitarraB
 {margin-left: 390px;}
+
+.footer
+{
+    background-color: #273b47;
+}
