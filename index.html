@@ -66,10 +66,27 @@
         <div class="contacto">
             <img src="Img/invie-white.png" alt="logotipo Blanco"/>
             <a href="tel:"><strong>Telefono:</strong><span>809-123-4567</span></a>
-            <a href="mailto"><strong>vjpc21@gmail.com</strong></a>
+            <a href="mailto"><strong>E-Mail</strong><span>vjpc21@gmail.com</span></a>
         </div>
-        <div class="formulario"></div>
+        <form class="formulario" action="index.html" method="post">
+          <label for="txtNombre">Nombre</label>
+          <input type="text" required name="txtNombre" id="txtNombre" placeholder="ingresa tu nombre"/>
+          <label for="txtEmail">E-Mail</label>
+          <input type="email" required name="txtEmail" id="txtEmail" placeholder="ingrese su Correo Electronico" value="">
+          <div class="rdSexo">
+            <label for="rdMujer">Mujer</label>
+            <input type="radio" id="rdMujer"  name="rdSexo" value="">
+            <label for="rdHombre">Hombre</label>
+            <input type="radio" id="rdHombre"  name="rdSexo" value="">
+          </div>
+          <div class="">
+            <label for="txtReclamos">Reclamos
+              <input type="checkbox" name="txtIntereses" id="txtReclamos" value="">
+            </label>
+          </div>
+        </form>
         </div>
+
     </footer>
   </body>
 
