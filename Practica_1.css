@@ -2,7 +2,7 @@ header
 {
   position: relative;
 }
-button
+.button
 {
   background: red;
   color: white;
@@ -124,7 +124,13 @@ body
 {
     background-color: #273b47;
 }
-
+.contacto
+{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .contacto img
 {
   display: block;
@@ -137,8 +143,35 @@ body
 {
   color: white;
   text-decoration: none;
+  margin: 10px 10px 10px 0;
 }
 
 .formulario{
   color: white;
+}
+.footer .contenedor
+{
+  display: flex;
+  justify-content: space-between;
+}
+.formulario
+{
+  display: flex;
+  width: 450px;
+  padding: 50px 10px;
+}
+
+.col-A, .col-B
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.col-A
+{
+  margin-right: 15px;
+}
+.col-B
+{
+  align-items: flex-start;
 }
