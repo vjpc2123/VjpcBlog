@@ -175,3 +175,28 @@ body
 {
   align-items: flex-start;
 }
+table
+{
+  width: 100%;
+
+}
+th
+{
+  background: #273b47;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+td
+{
+  padding: 20px;
+}
+table,th,td
+{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+.tablas
+{
+  margin: 100px;
+}
