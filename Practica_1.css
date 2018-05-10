@@ -7,13 +7,22 @@ header
   background: red;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 5px 10px 5px 10px;
+  font-size: 18px;
+  background: linear-gradient(to left, #fe344e,#ff7250);
+  cursor: pointer;
+  text-decoration: none;
 }
 body
 {
     margin:0;
     font-family: 'Allerta', sans-serif;
+}
+.contenedor
+{
+  width: 800px;
+  margin: auto;
 }
 .title-A
 {
@@ -36,6 +45,7 @@ body
 .guitarras
 {
   color: #254d74;
+  margin-bottom: 70px;
 
 }
 .guitarras h2
@@ -44,10 +54,12 @@ body
 }
 .portada
 {
-  background-image: url("Img/background.png");
 
+  background-image: url("Img/background.png");
+  background-size: cover;
   color: white;
   padding: 20px;
+  height: 600px;
 
 }
 .menu
@@ -63,9 +75,15 @@ body
   display: inline-block;
   margin-left: 30px;
 }
+.menu a
+{
+  color: white;
+  text-decoration: none;
+}
 .logotipo
 {
   display: inline-block;
+  margin-left: 0;
 }
 .btnConoceMas
 {
@@ -76,17 +94,18 @@ body
   margin-bottom: 10px;
 
 }
+.title-A span
+{
+  text-decoration: underline;
+}
 .guitarra-1 ol {
   margin-top: 10px;
+
 }
 .guitarra-2 ol {
   margin-top: 10px;
 }
-.contenedor
-{
-  width: 800px;
-  margin: auto;
-}
+
 .guitarra-1 img
 {
   float: right;
@@ -98,7 +117,7 @@ body
 {
   float:left;
   position: relative;
-  top: 57px;
+
 }
 .guitarra-1
 {
@@ -107,6 +126,7 @@ body
   /*overflow:hidden;*/
   border: 1px solid #254d74;
   border-radius: 10px;
+  margin-bottom: 30px;
 
 }
 .guitarra-2
@@ -115,11 +135,17 @@ body
   /*overflow: hidden;*/
   border: 1px solid #254d74;
   border-radius: 10px;
+  height: 190px;
 }
 .contenedoguitarraB
-{margin-left: 390px;}
+{
 
-.test{}
+  margin-left: 390px;
+  position: relative;
+  bottom: 100px;
+}
+
+
 .footer
 {
     background-color: #273b47;
@@ -175,6 +201,10 @@ body
 {
   align-items: flex-start;
 }
+.col-B .button
+{
+  margin-top: 15px;
+}
 table
 {
   width: 100%;
@@ -199,4 +229,13 @@ table,th,td
 .tablas
 {
   margin: 100px;
+}
+input, textarea
+{
+  outline: 0;
+
+}
+input:focus, textarea:focus{
+
+  background: lightblue;
 }
